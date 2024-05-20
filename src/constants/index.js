@@ -10,13 +10,18 @@ import {
   reactjs,
   // redux,
   // tailwind,
-  // nodejs,
+  nodejs,
   git,
   figma,
   // docker,
   // postgresql,
   // rubyrails,
   // graphql,
+  materialui,
+  mysql,
+  nextjs,
+  python,
+  vscode,
   treats,
   peace,
   // math,
@@ -92,10 +97,10 @@ const technologies = [
   //   name: 'Tailwind CSS',
   //   icon: tailwind,
   // },
-  // {
-  //   name: 'Node JS',
-  //   icon: nodejs,
-  // },
+  {
+    name: 'Node JS',
+    icon: nodejs,
+  },
   // {
   //   name: 'Rails',
   //   icon: rubyrails,
@@ -120,6 +125,26 @@ const technologies = [
   //   name: 'docker',
   //   icon: docker,
   // },
+  {
+    name: 'materialui',
+    icon: materialui,
+  },
+  {
+    name: 'mysql',
+    icon: mysql,
+  },
+  {
+    name: 'nextjs',
+    icon: nextjs,
+  },
+  {
+    name: 'python',
+    icon: python,
+  },
+  {
+    name: 'vscode',
+    icon: vscode,
+  },
 ];
 
 const experiences = [

@@ -37,6 +37,11 @@ import typescript from './tech/typescript.png';
 import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
 import rubyrails from './tech/rubyrails.png';
+import materialui from './tech/materialui.png';
+import mysql from './tech/mysql.png';
+import nextjs from './tech/nextjs.png';
+import python from './tech/python.png';
+import vscode from './tech/vscode.png';
 
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
@@ -86,6 +91,11 @@ export {
   redux,
   tailwind,
   typescript,
+  materialui,
+  mysql,
+  nextjs,
+  python,
+  vscode,
   treats,
   peace,
   // math,
