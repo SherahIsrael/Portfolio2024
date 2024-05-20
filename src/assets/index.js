@@ -45,10 +45,10 @@ import microverse from './company/microverse.png';
 
 import treats from './projects/Treats.png';
 import peace from './projects/PeaceOfMind.png';
-import math from './projects/math-magicians.png';
-import movie from './projects/movie-metro.png';
-import nyeusi from './projects/nyeusi.png';
-import space from './projects/space-hub.png';
+// import math from './projects/math-magicians.png';
+// import movie from './projects/movie-metro.png';
+// import nyeusi from './projects/nyeusi.png';
+// import space from './projects/space-hub.png';
 
 export {
   bwmap,
@@ -88,10 +88,10 @@ export {
   typescript,
   treats,
   peace,
-  math,
-  movie,
-  nyeusi,
-  space,
+  // math,
+  // movie,
+  // nyeusi,
+  // space,
   coverhunt,
   dcc,
   kelhel,

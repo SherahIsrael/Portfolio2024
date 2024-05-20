@@ -4,25 +4,28 @@ import { styles } from '../styles';
 import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
+import Tilt from 'react-parallax-tilt';
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
+    <Tilt options={{ "max-glare": 0.01, scale: 0.25 }}>
     <motion.div
       variants={fadeIn('right', 'spring', 0.5 * index, 0.75)}
-      className="xs:w-[250px] w-full card-gradient p-[1px] rounded-[20px] shadow-card">
+      className="xs:w-[250px] w-full card-gradient p-[1px] rounded-[20px] bg-jetLight">
       <div
         options={{
           max: 45,
           scale: 1,
           speed: 450,
         }}
-        className="bg-jetLight rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
+        className="glassmorphism rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
         <img src={icon} alt={title} className="w-16 h-16 object-contain" />
-        <h3 className="text-taupe text-[18px] font-bold text-center">
+        <h3 className="text-jetBlack text-[18px] font-bold text-center">
           {title}
         </h3>
       </div>
     </motion.div>
+    </Tilt>
   );
 };
 
@@ -37,12 +40,9 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+        Since starting my coding journey in 2020 I have built websites,
+        worked on th UI/UX of a AI chat app and worked with an international
+        group during my internship. 
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-5">
