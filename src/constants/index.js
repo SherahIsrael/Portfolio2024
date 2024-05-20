@@ -17,8 +17,8 @@ import {
   postgresql,
   rubyrails,
   graphql,
-  komikult,
-  leaderboard,
+  treats,
+  peace,
   math,
   movie,
   nyeusi,
@@ -156,8 +156,8 @@ const experiences = [
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'Indulge in Treats',
+    description: 'Website of a treats shop',
     tags: [
       {
         name: 'react',
@@ -172,15 +172,15 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    image: treats,
+    repo: 'https://github.com/SherahIsrael/Treats',
+    demo: 'https://indulgeintreats.netlify.app/',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'Peace of Mind',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'A relaxing site for meditation.',
     tags: [
       {
         name: 'react',
@@ -195,9 +195,9 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    image: peace,
+    repo: 'https://github.com/SherahIsrael/PeaceOfMind',
+    demo: 'https://getsomepeaceofmind.netlify.app/',
   },
   {
     id: 'project-3',

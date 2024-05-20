@@ -3,8 +3,8 @@ import nairobi from './backgrounds/nairobi.png';
 import whiteabstract from './backgrounds/white-abstract.png';
 import worldmap from './backgrounds/world-map.png';
 
-import logo from './logo/logo-black.png';
-import logotext from './logo/logo-text-black.png';
+import logo from './logo/S_logo.png';
+import logotext from './logo/logo_text_black.png';
 
 import womanCoding from './personal/womanCoding.png';
 
@@ -43,8 +43,8 @@ import dcc from './company/dcc.png';
 import kelhel from './company/kelhel.png';
 import microverse from './company/microverse.png';
 
-import komikult from './projects/komikult.png';
-import leaderboard from './projects/leaderboard.png';
+import treats from './projects/Treats.png';
+import peace from './projects/PeaceOfMind.png';
 import math from './projects/math-magicians.png';
 import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
@@ -86,8 +86,8 @@ export {
   redux,
   tailwind,
   typescript,
-  komikult,
-  leaderboard,
+  treats,
+  peace,
   math,
   movie,
   nyeusi,
